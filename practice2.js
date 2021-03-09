@@ -1,7 +1,8 @@
-let a;
-a = [ ["kuma","sirokuma"], ["kome","pan"] ];
+let a = 10;
+let b = 5;
 
-console.log(a[0][0]);
-console.log(a[0][1]);
-console.log(a[1][0]);
-console.log(a[1][1]);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
