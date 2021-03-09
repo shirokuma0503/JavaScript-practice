@@ -1,7 +1,6 @@
 for(let i = 0; i <= 5; i ++) {
-  if(i == 3) {
-    continue;
+  for(let ii = 0; ii <= 5; ii ++) {
+    console.log(i + "の" + ii);
   }
-  console.log(i);
 }
 
