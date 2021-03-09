@@ -1,4 +1,5 @@
-class Student {
+//クラス式に書き換え
+let Student = class {
   constructor(name) {
     this.name = name;
   }
@@ -6,7 +7,7 @@ class Student {
   avg(math, english) {
     console.log((math + english) / 2);
   }
-}
+}; //セミコロン追加
 
 let a001 = new Student("sato");
 console.log(a001.name);
