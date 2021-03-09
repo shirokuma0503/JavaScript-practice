@@ -1,7 +1,7 @@
-//関数の定義
-function say_hello() {
-  console.log("Hello!");
-}
+//変数helloに関数をいれる
+let hello = function say_hello() {
+  console.log("こんにちは！");
+};
 
-//関数の呼び出し
-say_hello();
+//変数の呼び出し
+hello();
