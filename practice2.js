@@ -1,8 +1,9 @@
-let a = [1,2,3,4,5];
-let sum = 0;
-
-for(let i = 0; i <= 4; i ++) {
-  sum += a[i];
+for(let i = 1; i <= 10; i ++) {
+  if (i == 3) {
+    continue;
+  } else if (i == 7) {
+    break;
+  } else {
+  console.log(i);
+  }
 }
-
-console.log(sum);
