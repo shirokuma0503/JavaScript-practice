@@ -1,6 +1,6 @@
 class Student {
-  constructor() {
-    this.name = "";
+  constructor(name) {
+    this.name = name;
   }
 
   avg(math, english) {
@@ -8,10 +8,8 @@ class Student {
   }
 }
 
-let a001 = new Student();
-a001.name = "sato";
+let a001 = new Student("sato");
 console.log(a001.name);
 
-let a002 = new Student();
-a002.name = "tanaka";
+let a002 = new Student("tanaka");
 console.log(a002.name);
