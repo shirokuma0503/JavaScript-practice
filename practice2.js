@@ -1,9 +1,5 @@
-let a = 1;
-let b = 2;
-let c = 3;
+let age = 30;
 
-a += 10; //a = a + 10
-c += b; //b = b + c
-
-console.log(a);
-console.log(c);
+if (age >= 20) {
+  console.log("おとな");
+}
