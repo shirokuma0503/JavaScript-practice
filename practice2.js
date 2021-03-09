@@ -1,7 +1,7 @@
-let a = ["tanaka","sato","suzuki"];
+let a;
+a = [ ["kuma","sirokuma"], ["kome","pan"] ];
 
-a[0] = "panda";
-
-console.log(a[0]);
-console.log(a[1]);
-console.log(a[2]);
+console.log(a[0][0]);
+console.log(a[0][1]);
+console.log(a[1][0]);
+console.log(a[1][1]);
