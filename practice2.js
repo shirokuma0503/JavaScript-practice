@@ -1,5 +1,5 @@
 //変数helloに関数をいれる
-let hello = function say_hello() {
+let hello = function() {
   console.log("こんにちは！");
 };
 
