@@ -1,7 +1,7 @@
-//関数に引数を指定
-function say_hello(greeting) {
-  console.log(greeting);
+//計算する関数
+function cal(a) {
+  console.log(a * 3);
 };
 
 //関数の呼び出し
-say_hello("こんにちは！");
+cal(6);
