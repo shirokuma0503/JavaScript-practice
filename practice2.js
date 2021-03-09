@@ -1,5 +1,9 @@
-let a = 10;
-let b = 5;
+let a = 1;
+let b = 2;
+let c = 3;
 
-console.log(a == 10 || a == 10);
-console.log(b == 20 || b == 20);
+a += 10; //a = a + 10
+c += b; //b = b + c
+
+console.log(a);
+console.log(c);
