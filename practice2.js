@@ -1,6 +1,5 @@
-for(let i = 0; i <= 5; i ++) {
-  for(let ii = 0; ii <= 5; ii ++) {
-    console.log(i + "の" + ii);
-  }
-}
+let a = [1,2,3,4,5];
 
+for(let i = 0; i <= 4; i ++) {
+  console.log(a[i]);
+}
