@@ -1,9 +1,7 @@
-for(let i = 1; i <= 10; i ++) {
-  if (i == 3) {
-    continue;
-  } else if (i == 7) {
-    break;
-  } else {
-  console.log(i);
-  }
+//関数の定義
+function say_hello() {
+  console.log("Hello!");
 }
+
+//関数の呼び出し
+say_hello();
