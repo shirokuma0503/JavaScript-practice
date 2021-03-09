@@ -1,5 +1,3 @@
-console.log("Good morning");
-
-console.log("Good afternoon");
-
-console.log("Good evening");
+var num;
+num = 1;
+console.log(num);
