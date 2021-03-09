@@ -1,4 +1,4 @@
-let a = new Array("tanaka","sato","suzuki"); //配列を直接入力
+let a = ["tanaka","sato","suzuki"];
 
 console.log(a[0]);
 console.log(a[1]);
